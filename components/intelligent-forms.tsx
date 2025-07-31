@@ -1560,7 +1560,7 @@ export default function IntelligentForms() {
                         <span>完成时间：</span>
                         <span className="font-medium">{template.averageTime}秒</span>
                       </div>
-                      <Progress value={template.conversionRate} colorScheme="green" className="h-2 mt-2" />
+                      <Progress value={template.conversionRate} className="h-2 mt-2" />
                     </div>
                   </div>
                 ))}

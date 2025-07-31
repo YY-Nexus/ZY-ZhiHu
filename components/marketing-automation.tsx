@@ -582,7 +582,7 @@ export default function MarketingAutomation() {
                       <span className="text-sm">邮件营销</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <Progress value={75} className="w-20 h-2" colorScheme="blue" />
+                      <Progress value={75} className="w-20 h-2" />
                       <span className="text-sm font-medium">75%</span>
                     </div>
                   </div>
@@ -592,7 +592,7 @@ export default function MarketingAutomation() {
                       <span className="text-sm">短信营销</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <Progress value={68} className="w-20 h-2" colorScheme="green" />
+                      <Progress value={68} className="w-20 h-2" />
                       <span className="text-sm font-medium">68%</span>
                     </div>
                   </div>
@@ -602,7 +602,7 @@ export default function MarketingAutomation() {
                       <span className="text-sm">推送通知</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <Progress value={52} className="w-20 h-2" colorScheme="purple" />
+                      <Progress value={52} className="w-20 h-2" />
                       <span className="text-sm font-medium">52%</span>
                     </div>
                   </div>
@@ -612,7 +612,7 @@ export default function MarketingAutomation() {
                       <span className="text-sm">优惠券</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <Progress value={89} className="w-20 h-2" colorScheme="orange" />
+                      <Progress value={89} className="w-20 h-2" />
                       <span className="text-sm font-medium">89%</span>
                     </div>
                   </div>

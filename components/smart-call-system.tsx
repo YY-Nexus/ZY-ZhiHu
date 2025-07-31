@@ -352,7 +352,7 @@ export default function SmartCallSystem() {
                     <span className="text-sm font-medium">情感分析</span>
                     <Badge className={getSentimentColor(voiceAnalysis.sentiment)}>{voiceAnalysis.emotion}</Badge>
                   </div>
-                  <Progress value={voiceAnalysis.confidence * 100} className="h-2" colorScheme="purple" />
+                  <Progress value={voiceAnalysis.confidence * 100} className="h-2" />
                   <div className="text-xs text-gray-600 mt-1">
                     置信度: {(voiceAnalysis.confidence * 100).toFixed(1)}%
                   </div>
@@ -563,21 +563,21 @@ export default function SmartCallSystem() {
                   <div className="flex items-center justify-between">
                     <span className="text-sm">积极情感</span>
                     <div className="flex items-center gap-2">
-                      <Progress value={65} className="w-20 h-2" colorScheme="purple" />
+                      <Progress value={65} className="w-20 h-2" />
                       <span className="text-sm font-medium text-green-600">65%</span>
                     </div>
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-sm">中性情感</span>
                     <div className="flex items-center gap-2">
-                      <Progress value={25} className="w-20 h-2" colorScheme="purple" />
+                      <Progress value={25} className="w-20 h-2" />
                       <span className="text-sm font-medium text-gray-600">25%</span>
                     </div>
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-sm">消极情感</span>
                     <div className="flex items-center gap-2">
-                      <Progress value={10} className="w-20 h-2" colorScheme="purple" />
+                      <Progress value={10} className="w-20 h-2" />
                       <span className="text-sm font-medium text-red-600">10%</span>
                     </div>
                   </div>

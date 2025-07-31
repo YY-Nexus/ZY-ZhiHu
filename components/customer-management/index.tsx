@@ -718,7 +718,7 @@ export default function CustomerManagement() {
             </DialogHeader>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 py-4">
               <div className="space-y-4">
-                <div className="p-4 bg-blue-50 rounded-lg border border-blue-200">
+                <div className="p-4 bg-blue-50 rounded-lg">
                   <h4 className="font-semibold mb-3 text-blue-600 flex items-center gap-2">
                     <User className="w-4 h-4" />
                     基本信息
@@ -743,7 +743,7 @@ export default function CustomerManagement() {
                   </div>
                 </div>
 
-                <div className="p-4 bg-green-50 rounded-lg border border-green-200">
+                <div className="p-4 bg-green-50 rounded-lg">
                   <h4 className="font-semibold mb-3 text-green-600 flex items-center gap-2">
                     <Target className="w-4 h-4" />
                     项目信息
@@ -778,7 +778,7 @@ export default function CustomerManagement() {
               </div>
 
               <div className="space-y-4">
-                <div className="p-4 bg-orange-50 rounded-lg border border-orange-200">
+                <div className="p-4 bg-orange-50 rounded-lg">
                   <h4 className="font-semibold mb-3 text-orange-600 flex items-center gap-2">
                     <Clock className="w-4 h-4" />
                     跟进信息
@@ -807,7 +807,7 @@ export default function CustomerManagement() {
                   </div>
                 </div>
 
-                <div className="p-4 bg-purple-50 rounded-lg border border-purple-200">
+                <div className="p-4 bg-purple-50 rounded-lg">
                   <h4 className="font-semibold mb-3 text-purple-600 flex items-center gap-2">
                     <Star className="w-4 h-4" />
                     客户标签
@@ -822,7 +822,7 @@ export default function CustomerManagement() {
                 </div>
 
                 {selectedCustomer.notes.length > 0 && (
-                  <div className="p-4 bg-indigo-50 rounded-lg border border-indigo-200">
+                  <div className="p-4 bg-indigo-50 rounded-lg">
                     <h4 className="font-semibold mb-2 flex items-center gap-2">
                       <MessageSquare className="w-4 h-4" />
                       跟进记录
@@ -839,7 +839,7 @@ export default function CustomerManagement() {
               </div>
 
               <div className="col-span-2">
-                <div className="p-4 bg-gray-50 rounded-lg border border-gray-200">
+                <div className="p-4 bg-gray-50 rounded-lg">
                   <h4 className="font-semibold mb-2 flex items-center gap-2">
                     <Edit className="w-4 h-4" />
                     需求描述
@@ -849,7 +849,7 @@ export default function CustomerManagement() {
               </div>
             </div>
 
-            <div className="flex justify-end gap-2 pt-4 border-t border-gray-100">
+            <div className="flex justify-end gap-2 pt-4 border-t">
               <Button variant="outline" className="hover:bg-green-50 hover:border-green-300 bg-transparent">
                 <Phone className="w-4 h-4 mr-2" />
                 拨打电话
